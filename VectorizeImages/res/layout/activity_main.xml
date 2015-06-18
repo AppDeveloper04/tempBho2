@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_first" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/header"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imgvec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                android:src="@drawable/imgvectorization" />
+
+            <ImageView
+                android:id="@+id/imgbac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                android:src="@drawable/backgroundremovel" />
+
+            <ImageView
+                android:id="@+id/imgpho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                android:src="@drawable/photo_editiongand_retouch" />
+
+            <ImageView
+                android:id="@+id/imggra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                android:src="@drawable/graphics_design" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_second" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/actionbarheader" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="5"
+                android:src="@drawable/mail" />
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:ems="10"
+                android:hint="Email address"
+                android:inputType="textEmailAddress" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF" >
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:src="@drawable/iconmsg" />
+
+            <EditText
+                android:id="@+id/etIFD"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="Instruction's for Designer" />
+
+        
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/browseandupload" />
+
+        <Button
+            android:id="@+id/btntackimage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/tackephoto" />
+
+        <Button
+            android:id="@+id/btnopengallery"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/choosefromgallery" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/submitbtn" />
+    </LinearLayout>
+
+</ScrollView>
